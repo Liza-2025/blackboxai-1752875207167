@@ -1,0 +1,66 @@
+{
+  "attendance": [
+    {
+      "id": "ATT001",
+      "employeeId": "EMP001",
+      "employeeName": "John Doe",
+      "date": "2024-01-15",
+      "checkIn": "09:00",
+      "checkOut": "18:00",
+      "hoursWorked": 9.0,
+      "status": "Present",
+      "location": "Office"
+    },
+    {
+      "id": "ATT002",
+      "employeeId": "EMP002",
+      "employeeName": "Jane Smith",
+      "date": "2024-01-15",
+      "checkIn": "08:30",
+      "checkOut": "17:30",
+      "hoursWorked": 9.0,
+      "status": "Present",
+      "location": "Office"
+    },
+    {
+      "id": "ATT003",
+      "employeeId": "EMP003",
+      "employeeName": "Mike Johnson",
+      "date": "2024-01-15",
+      "checkIn": "09:15",
+      "checkOut": "18:15",
+      "hoursWorked": 9.0,
+      "status": "Present",
+      "location": "Remote"
+    },
+    {
+      "id": "ATT004",
+      "employeeId": "EMP004",
+      "employeeName": "Sarah Wilson",
+      "date": "2024-01-15",
+      "checkIn": "08:45",
+      "checkOut": "17:45",
+      "hoursWorked": 9.0,
+      "status": "Present",
+      "location": "Office"
+    },
+    {
+      "id": "ATT005",
+      "employeeId": "EMP005",
+      "employeeName": "David Brown",
+      "date": "2024-01-15",
+      "checkIn": null,
+      "checkOut": null,
+      "hoursWorked": 0.0,
+      "status": "Absent",
+      "location": null
+    }
+  ],
+  "summary": {
+    "totalEmployees": 5,
+    "presentToday": 4,
+    "absentToday": 1,
+    "averageHours": 7.2,
+    "onTimePercentage": 80.0
+  }
+}
