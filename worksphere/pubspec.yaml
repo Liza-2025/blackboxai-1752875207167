@@ -32,7 +32,7 @@ dependencies:
   json_annotation: ^4.8.1
   
   # Charts and analytics
-  fl_chart: ^0.66.0
+  fl_chart: ^0.55.2
 
 dev_dependencies:
   flutter_test:
