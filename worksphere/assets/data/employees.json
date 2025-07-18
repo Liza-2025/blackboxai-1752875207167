@@ -1,0 +1,59 @@
+{
+  "employees": [
+    {
+      "id": "EMP001",
+      "name": "John Doe",
+      "email": "john.doe@worksphere.com",
+      "department": "Engineering",
+      "position": "Senior Developer",
+      "avatar": "https://via.placeholder.com/150",
+      "joinDate": "2022-01-15",
+      "status": "Active",
+      "phone": "+1-555-0123"
+    },
+    {
+      "id": "EMP002",
+      "name": "Jane Smith",
+      "email": "jane.smith@worksphere.com",
+      "department": "Human Resources",
+      "position": "HR Manager",
+      "avatar": "https://via.placeholder.com/150",
+      "joinDate": "2021-03-20",
+      "status": "Active",
+      "phone": "+1-555-0124"
+    },
+    {
+      "id": "EMP003",
+      "name": "Mike Johnson",
+      "email": "mike.johnson@worksphere.com",
+      "department": "Marketing",
+      "position": "Marketing Specialist",
+      "avatar": "https://via.placeholder.com/150",
+      "joinDate": "2023-06-10",
+      "status": "Active",
+      "phone": "+1-555-0125"
+    },
+    {
+      "id": "EMP004",
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@worksphere.com",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "avatar": "https://via.placeholder.com/150",
+      "joinDate": "2022-09-05",
+      "status": "Active",
+      "phone": "+1-555-0126"
+    },
+    {
+      "id": "EMP005",
+      "name": "David Brown",
+      "email": "david.brown@worksphere.com",
+      "department": "Engineering",
+      "position": "DevOps Engineer",
+      "avatar": "https://via.placeholder.com/150",
+      "joinDate": "2023-02-14",
+      "status": "On Leave",
+      "phone": "+1-555-0127"
+    }
+  ]
+}
