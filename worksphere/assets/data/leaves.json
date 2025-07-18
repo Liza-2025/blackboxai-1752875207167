@@ -1,0 +1,78 @@
+{
+  "leaves": [
+    {
+      "id": "LV001",
+      "employeeId": "EMP001",
+      "employeeName": "John Doe",
+      "leaveType": "Annual Leave",
+      "startDate": "2024-02-15",
+      "endDate": "2024-02-19",
+      "days": 5,
+      "reason": "Family vacation",
+      "status": "Approved",
+      "appliedDate": "2024-01-20",
+      "approvedBy": "Jane Smith"
+    },
+    {
+      "id": "LV002",
+      "employeeId": "EMP003",
+      "employeeName": "Mike Johnson",
+      "leaveType": "Sick Leave",
+      "startDate": "2024-01-22",
+      "endDate": "2024-01-24",
+      "days": 3,
+      "reason": "Medical treatment",
+      "status": "Approved",
+      "appliedDate": "2024-01-21",
+      "approvedBy": "Jane Smith"
+    },
+    {
+      "id": "LV003",
+      "employeeId": "EMP004",
+      "employeeName": "Sarah Wilson",
+      "leaveType": "Personal Leave",
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-01",
+      "days": 1,
+      "reason": "Personal appointment",
+      "status": "Pending",
+      "appliedDate": "2024-01-25",
+      "approvedBy": null
+    },
+    {
+      "id": "LV004",
+      "employeeId": "EMP005",
+      "employeeName": "David Brown",
+      "leaveType": "Annual Leave",
+      "startDate": "2024-01-15",
+      "endDate": "2024-01-19",
+      "days": 5,
+      "reason": "Extended weekend",
+      "status": "Approved",
+      "appliedDate": "2024-01-10",
+      "approvedBy": "Jane Smith"
+    }
+  ],
+  "leaveTypes": [
+    {
+      "type": "Annual Leave",
+      "maxDays": 25,
+      "color": "#4CAF50"
+    },
+    {
+      "type": "Sick Leave",
+      "maxDays": 10,
+      "color": "#FF9800"
+    },
+    {
+      "type": "Personal Leave",
+      "maxDays": 5,
+      "color": "#2196F3"
+    },
+    {
+      "type": "Maternity Leave",
+      "maxDays": 90,
+      "color": "#E91E63"
+    }
+  ]
+}
