@@ -126,12 +126,12 @@ class PasswordStrengthIndicator extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const SizedBox(height: AppSpacing.sm),
+        const SizedBox(height: 8.0),
         Row(
           children: [
             const Text(
               "Password strength: ",
-              style: AppTextStyles.bodyText2,
+              style: TextStyle(fontSize: 14, color: Colors.grey),
             ),
             Text(
               getIndicatorText(),
@@ -143,24 +143,21 @@ class PasswordStrengthIndicator extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: AppSpacing.xs),
+        const SizedBox(height: 4.0),
         LinearProgressIndicator(
           value: getStrengthValue(),
           backgroundColor: Colors.grey[300],
           valueColor: AlwaysStoppedAnimation<Color>(getIndicatorColor()),
         ),
-        if (strength != PasswordStrength.Strong) ...[
-          const SizedBox(height: AppSpacing.sm),
-          Text(
+        if (strength != PasswordStrength.Strong && getPasswordRequirements().isNotEmpty) ...[
+          const SizedBox(height: 8.0),
+          const Text(
             "Missing requirements:",
-            style: AppTextStyles.bodyText2.copyWith(
-              fontSize: 12,
-              fontWeight: FontWeight.w500,
-            ),
+            style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
           ),
-          const SizedBox(height: AppSpacing.xs),
+          const SizedBox(height: 4.0),
           ...getPasswordRequirements().map((requirement) => Padding(
-                padding: const EdgeInsets.only(left: AppSpacing.sm),
+                padding: const EdgeInsets.only(left: 8.0),
                 child: Row(
                   children: [
                     Icon(
@@ -168,7 +165,7 @@ class PasswordStrengthIndicator extends StatelessWidget {
                       size: 4,
                       color: Colors.grey[600],
                     ),
-                    const SizedBox(width: AppSpacing.xs),
+                    const SizedBox(width: 4.0),
                     Text(
                       requirement,
                       style: TextStyle(
