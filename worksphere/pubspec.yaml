@@ -1,0 +1,49 @@
+name: worksphere
+description: A complete Flutter-based HR assistant application inspired by Zoho People
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Navigation
+  go_router: ^13.2.0
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  
+  # Data handling
+  shared_preferences: ^2.2.2
+  
+  # HTTP requests (for future API integration)
+  http: ^1.2.0
+  
+  # JSON handling
+  json_annotation: ^4.8.1
+  
+  # Charts and analytics
+  fl_chart: ^0.66.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/data/
